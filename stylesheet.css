@@ -55,6 +55,7 @@ a {
  .title h1 {
     margin: 0px;
     padding-top: auto;
+    font-size: 64px;
 }
 
 .title p {
@@ -406,7 +407,7 @@ a {
     display: flex;
     flex-basis: 60%;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     padding: 100px 0;
 }
 
@@ -423,12 +424,32 @@ a {
     border-bottom-color: gray;
     border-bottom-width: thin;
     margin-right: 40px;
-
+    
 }
 
 .introduction-item p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     padding-right: 30px;
+    padding-left: 30px;
 }
+
+.top-blue-line {
+    border-top-style: solid;
+    border-top-color: mediumspringgreen;
+    border-top-width: thin;
+}
+
+.top-gray-line {
+    border-top-style: solid;
+    border-top-color: gray;
+    border-top-width: thin;
+
+}
+
+
 
 .introduction-map {
     flex-basis: 40%;
